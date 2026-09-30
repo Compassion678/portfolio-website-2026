@@ -46,3 +46,47 @@ nav a{ text-decoration: none;
         background-color:green;
         color: black;
     }
+    .projects-card{
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+    .skill-level {
+    background-color:#ddd;
+    height: 20px;
+    border-radius:10px;
+    overflow:hidden;
+    }
+.skill-level {
+    height: 100%;
+    text-align: center;
+    color:white;
+    font-size: 14px;
+    line-height: 20px ;
+}
+.html {
+    width: 80%;
+}
+.css{
+    width:70%;
+}
+.javascript{
+    width:60%;
+}
+.github {
+    width: 65%;
+}
+.webdesign {
+    width: 70%
+}
+.skill-level{
+    background-color: #6b4f3a;
+}
+.service-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+#
