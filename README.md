@@ -20,7 +20,7 @@ The website introduces me, describes my skills and intrests, and provides my con
 
 ## How to View the Website
 Open the index.html file in a web browser to view the portfolio
-##  Updates done
+##  Simple Logic
 I enhanced my portfolio by intergrating the GitHub public API using Fetch API and JavaScript.The website now includes loading and error handling ,security improvements using `noopener noreferrer`, and lazy loading for images.
 
 Lighthouse results:
