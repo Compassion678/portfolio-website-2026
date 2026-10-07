@@ -14,8 +14,11 @@ fetch(`https://api.github.com/users/${username}/repos`)
     .then(repositories =>{
         loadingMessage.style.display="none";
         
-        repositories.forEach(repo=> {
-            const repository=
+        repositories
+        .filter(repo => repo.name
+            === "portfolio-website-2026")
+            .forEach(repo =>  {
+            const repository =
             document.createElement("div");
 
             const name =
