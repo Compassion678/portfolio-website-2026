@@ -12,6 +12,7 @@ fetch(`https://api.github.com/users/${username}/repos`)
         return Response.json();
     })
     .then(repositories =>{
+        // Hide loading message when data is succesfully loaded
         loadingMessage.style.display="none";
         
         repositories
@@ -44,7 +45,11 @@ fetch(`https://api.github.com/users/${username}/repos`)
              repositoriesContainer.appendChild(repository);
         })
     })
-        .catch(error => { loadingMessage.style.display ="none";
+        .catch(error => 
+            // Hide the loading message
+            { loadingMessage.style.display ="none";
+            
+                // Display the error 
             errorMessage.textContent
             =
             "Sorry,we could not load the Github repositories. Please try again later.";
